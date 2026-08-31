@@ -90,8 +90,13 @@ jobs:
           awk '/^## \[/ { if (seen) exit; seen = 1 } seen' CHANGELOG.md > RELEASE_NOTES.md
           cat RELEASE_NOTES.md
 
+      # Pinned to a commit, not a tag. This step is the one that sees CF_API_KEY,
+      # and a tag is mutable: retargeting one is how tj-actions/changed-files
+      # leaked secrets out of thousands of repositories in March 2025. Bump by
+      # resolving the tag again - the comment beside each SHA says which version
+      # it is.
       - name: Package and Release
-        uses: BigWigsMods/packager@v2
+        uses: BigWigsMods/packager@842112a80d0d8faec9f61295c5e89944311d8a5d # v2
         with:
           args: ${{ inputs.dry_run && '-d' || '' }}
         env:

@@ -1,0 +1,20 @@
+package-as: MythicPlusLogLink
+
+enable-nolib-creation: no
+
+manual-changelog:
+  filename: RELEASE_NOTES.md
+  markup-type: markdown
+
+# No externals. The addon uses no libraries: it builds a URL and shows a box.
+
+ignore:
+  - README.md
+  - RELEASE_NOTES.md
+  - LICENSE
+  - .gitignore
+  - .github
+  - tests
+  - .busted
+  - release-please-config.json
+  - .release-please-manifest.json

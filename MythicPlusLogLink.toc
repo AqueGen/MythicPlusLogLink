@@ -2,7 +2,10 @@
 ## Title: Mythic Plus LogLink
 ## Notes: Right-click a player to copy their Warcraft Logs link, opened on the Mythic+ season instead of the raid tab.
 ## Author: AqueGen
+# x-release-please-start-version
 ## Version: 1.0.0
+## X-Curse-Version: 1.0.0
+# x-release-please-end
 ## X-License: MIT
 ## X-Website: https://github.com/AqueGen/MythicPlusLogLink
 ## IconTexture: Interface\Icons\INV_Misc_Note_01

@@ -1,0 +1,12 @@
+## Interface: 120000, 120001, 120005, 120100
+## Title: Mythic Plus LogLink
+## Notes: Right-click a player to copy their Warcraft Logs link, opened on the Mythic+ season instead of the raid tab.
+## Author: AqueGen
+## Version: 1.0.0
+## X-License: MIT
+## X-Website: https://github.com/AqueGen/MythicPlusLogLink
+## IconTexture: Interface\Icons\INV_Misc_Note_01
+
+Realms.lua
+Link.lua
+Core.lua

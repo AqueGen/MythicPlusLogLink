@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/AqueGen/MythicPlusLogLink/compare/v1.0.0...v1.1.0) (2026-08-31)
+
+
+### Features
+
+* copy a Warcraft Logs link that opens on the Mythic+ season ([241d3d0](https://github.com/AqueGen/MythicPlusLogLink/commit/241d3d0e7bf41e3653413d7913c48b77c176cf5b))
+
 ## [1.0.0] - 2026-09-01
 
 Initial release.

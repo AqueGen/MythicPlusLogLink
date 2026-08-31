@@ -1,9 +1,14 @@
 name: Release Please
 
+# Manual only, for now. On a push trigger this fails on every commit with
+# "GitHub Actions is not permitted to create or approve pull requests" until that
+# checkbox is turned on in Settings > Actions > General - and a repository that is
+# red on every push teaches you to ignore the red.
+#
+# To turn releases on: flip that setting, create the CurseForge project, put its
+# id in the toc and CF_API_KEY in the secrets, then restore the push trigger.
 on:
-  push:
-    branches:
-      - main
+  workflow_dispatch:
 
 permissions:
   contents: write

@@ -9,6 +9,7 @@ manual-changelog:
 # No externals. The addon uses no libraries: it builds a URL and shows a box.
 
 ignore:
+  - AGENTS.md
   - README.md
   - RELEASE_NOTES.md
   - LICENSE

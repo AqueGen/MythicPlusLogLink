@@ -49,4 +49,4 @@ Lua 5.1. Covers realm slugs, the exception table, Cyrillic folding, URL shape, a
 
 ## Licence
 
-MIT.
+All rights reserved - see [LICENSE](LICENSE).

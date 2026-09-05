@@ -6,7 +6,7 @@
 ## Version: 1.0.0
 ## X-Curse-Version: 1.0.0
 # x-release-please-end
-## X-License: MIT
+## X-License: All Rights Reserved
 ## X-Website: https://github.com/AqueGen/MythicPlusLogLink
 ## IconTexture: Interface\Icons\INV_Misc_Note_01
 
